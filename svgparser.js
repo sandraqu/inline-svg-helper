@@ -26,8 +26,8 @@ function printSvgLib(icon){
         var svg = new Svg(icon);
         var space = ' ';
         var viewBox = svg.minX+space+svg.minY+space+svg.width+space+svg.height;
-        var symbol = '<svg style="display:none;"><symbol id="svg'+ svg.icon 
-            +'" viewBox="'+ viewBox +'">'+ svgLib[svg.icon].path +'</svg>';
+        var symbol = '<symbol id="svg'+ svg.icon 
+            +'" viewBox="'+ viewBox +'">'+ svgLib[svg.icon].path +'</symbol>';
         var defs = document.querySelector('defs');
 
         defs.innerHTML += symbol;
