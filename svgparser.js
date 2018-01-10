@@ -66,7 +66,7 @@ function setupSvgs(){
 
             label = ele.dataset.label;
             if( label ){
-                span = '<span class="name">'+ label +'</span>';
+                span = '<span class="svg__label">'+ label +'</span>';
                 
                 align = ele.dataset.align;
                 if( !align ){
