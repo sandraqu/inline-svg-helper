@@ -1,4 +1,4 @@
-# svgparser
+# Inline SVG Helper
 Generate inline SVGs on the fly.  Use simple syntax to write your code, and generate a <use> link for your SVGs, and use simple data attributes to declare and place an optional label.  By default, the label will be appear after the icon, on the right.
 
 It makes this
